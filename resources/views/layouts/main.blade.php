@@ -59,7 +59,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <li><a href="browse.html"><i class="lnr lnr-music-note"></i> <span>Albums</span></a></li>                       
                         <li class="menu-list"><a href="browse.html"><i class="lnr lnr-indent-increase"></i> <span>Browser</span></a>  
                             <ul class="sub-menu-list">
-                                <li><a href="browse.html">Artists</a> </li>
+                                <li><a href="{{ url('/artist') }}">Artists</a> </li>
                                 <li><a href="404.html">Services</a> </li>
                             </ul>
                         </li>
