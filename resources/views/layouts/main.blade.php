@@ -41,10 +41,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
             <!--logo and iconic logo start-->
             <div class="logo">
-                <h1><a href="index.html">Mosai<span>c</span></a></h1>
+                <h1><a href="{{ url('/') }}">Mosai<span>c</span></a></h1>
             </div>
             <div class="logo-icon text-center">
-                <a href="index.html">M </a>
+                <a href=" {{ url('/') }}">M </a>
             </div>
      <!-- /w3l-agile -->
             <!--logo and iconic logo end-->
@@ -52,7 +52,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                 <!--sidebar nav start-->
                     <ul class="nav nav-pills nav-stacked custom-nav">
-                        <li class="active"><a href="index.html"><i class="lnr lnr-home"></i><span>Home</span></a></li>
+                        <li class="active"><a href=" {{ url('/') }}"><i class="lnr lnr-home"></i><span>Home</span></a></li>
                         <li><a href="radio.html"><i class="camera"></i> <span>Radio</span></a></li>
                         <li><a href="#" data-toggle="modal" data-target="#myModal1"><i class="fa fa-th"></i><span>Apps</span></a></li>
                         <li><a href="radio.html"><i class="lnr lnr-users"></i> <span>Artists</span></a></li> 
@@ -252,7 +252,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="footer-grid">
                     <h3>Navigation</h3>
                     <ul class="list1">
-                      <li><a href="index.html">Home</a></li>
+                      <li><a href="{{ url('/') }}">Home</a></li>
                       <li><a href="radio.html">All Songs</a></li>
                       <li><a href="browse.html">Albums</a></li>
                       <li><a href="radio.html">New Collections</a></li>

@@ -20,8 +20,8 @@
                                                          </div>
                                                         <div class="banner-info">
                                                                       <a class="trend" href="single.html">TRENDING</a>
-                                                                      <h3>Let Your Home</h3>
-                                                                      <p>Album by <span>Rock star</span></p>
+                                                                      <h3>Nirafiki</h3>
+                                                                      <p>Album by <span>Ritha Komba</span></p>
                                                          </div>
 
                                                 </li>
@@ -31,8 +31,8 @@
                                                          </div>
                                                         <div class="banner-info">
                                                                       <a class="trend" href="single.html">TRENDING</a>
-                                                                      <h3>Charis Brown feet</h3>
-                                                                      <p>Album by <span>Rock star</span></p>
+                                                                      <h3>Amani</h3>
+                                                                      <p>Album by <span>Paul clement</span></p>
                                                          </div>
 
 
@@ -43,8 +43,8 @@
                                                          </div>
                                                         <div class="banner-info"> 
                                                                      <a class="trend" href="single.html">TRENDING</a>
-                                                                      <h3>Let Your Home</h3>
-                                                                      <p>Album by <span>Rock star</span></p>
+                                                                      <h3>Utukumbuke </h3>
+                                                                      <p>Album by <span>Angel Bernard</span></p>
                                                          </div>
 
                                                      <!-- /w3layouts-agileits -->
@@ -52,7 +52,7 @@
                                             </ul>
                                         </div>
                                         <!--banner-->
-                                    <script src="js/responsiveslides.min.js"></script>
+                                    <script src="{{ asset('js/responsiveslides.min.js') }}"></script>
                                  <script>
                                     // You can also use "$(window).load(function() {"
                                     $(function () {
@@ -79,8 +79,8 @@
                 <!--//End-banner-->
                     <!--albums-->
                     <!-- pop-up-box --> 
-                            <link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all">
-                            <script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+                            <link href="{{ asset('css/popuo-box.css') }}" rel="stylesheet" type="text/css" media="all">
+                            <script src="{{ asset('js/jquery.magnific-popup.js') }}" type="text/javascript"></script>
                              <script>
                                     $(document).ready(function() {
                                     $('.popup-with-zoom-anim').magnificPopup({
@@ -108,7 +108,7 @@
                                 <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
                             </div>
                             <div id="small-dialog" class="mfp-hide">
-                                <iframe src="https://player.vimeo.com/video/12985622"></iframe>
+                                <iframe src="{{ url('https://player.vimeo.com/video/12985622') }}"></iframe>
                                 
                             </div>
                             <div class="col-md-3 content-grid">
@@ -132,7 +132,7 @@
                                 <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
                             </div>
                             <div id="small-dialog" class="mfp-hide">
-                                <iframe src="https://player.vimeo.com/video/12985622"></iframe>
+                                <iframe src=" {{ url('https://player.vimeo.com/video/12985622') }}"></iframe>
                                 
                             </div>
                             <div class="col-md-3 content-grid">
@@ -162,35 +162,35 @@
                                         </div>
                                             <div class="col-md-3 content-grid">
                                                 <a href="single.html"><img src="images/v11.jpg" title="allbum-name"></a>
-                                                <div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+                                                <div class="inner-info"><a href="single.html"><h5>Discover</h5></a></div>
                                             </div>
                                             <div class="col-md-3 content-grid">
                                                     <a href="single.html"><img src="images/v22.jpg" title="allbum-name"></a>
-                                                    <div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+                                                    <div class="inner-info"><a href="single.html"><h5>Discover</h5></a></div>
                                                 </div>
                                             <div class="col-md-3 content-grid">
                                                     <a href="single.html"><img src="images/v33.jpg" title="allbum-name"></a>
-                                                    <div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+                                                    <div class="inner-info"><a href="single.html"><h5>Discover</h5></a></div>
                                                 </div>
                                             <div class="col-md-3 content-grid last-grid">
                                                     <a href="single.html"><img src="images/v44.jpg" title="allbum-name"></a>
-                                                    <div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+                                                    <div class="inner-info"><a href="single.html"><h5>Discover</h5></a></div>
                                             </div>
                                             <div class="col-md-3 content-grid">
                                                     <a href="single.html"><img src="images/v55.jpg" title="allbum-name"></a>
-                                                    <div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+                                                    <div class="inner-info"><a href="single.html"><h5>Discover</h5></a></div>
                                             </div>
                                             <div class="col-md-3 content-grid">
                                                 <a href="single.html"><img src="images/v66.jpg" title="allbum-name"></a>
-                                                <div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+                                                <div class="inner-info"><a href="single.html"><h5>Discover</h5></a></div>
                                             </div>
                                             <div class="col-md-3 content-grid">
                                                     <a href="single.html"><img src="images/v11.jpg" title="allbum-name"></a>
-                                                    <div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+                                                    <div class="inner-info"><a href="single.html"><h5>Discover</h5></a></div>
                                             </div>
                                             <div class="col-md-3 content-grid last-grid">
                                                     <a href="single.html"><img src="images/v22.jpg" title="allbum-name"></a>
-                                                    <div class="inner-info"><a href="single.html"><h5>Pop</h5></a></div>
+                                                    <div class="inner-info"><a href="single.html"><h5>Discover</h5></a></div>
                                             </div>
                                             <div class="clearfix"> </div>
                                     </div>
@@ -204,7 +204,7 @@
                                     <div class="video-record-list">
                                         <div id="jp_container_1" class="jp-video jp-video-270p" role="application" aria-label="media player">
                                             <div class="jp-type-playlist">
-                                                <div id="jquery_jplayer_1" class="jp-jplayer" style="width: 480px; height: 270px;"><img id="jp_poster_0" src="video/play1.png" style="width: 480px; height: 270px; display: inline;"><video id="jp_video_0" preload="metadata" src="http://192.168.30.9/vijayaa/2015/Dec/mosaic/web/video/Ellie-Goulding.webm" title="1. Ellie-Goulding" style="width: 0px; height: 0px;"></video></div>
+                                                <div id="jquery_jplayer_1" class="jp-jplayer" style="width: 480px; height: 270px;"><img id="jp_poster_0" src="video/play1.png" style="width: 480px; height: 270px; display: inline;"><video id="jp_video_0" preload="metadata" src="http://192.168.30.9/vijayaa/2015/Dec/mosaic/web/video/Angel_Benard-Utukumbuke.webm" title="1. Angel_Benard-Utukumbuke" style="width: 0px; height: 0px;"></video></div>
                                                 <div class="jp-gui">
                                                     <div class="jp-video-play" style="display: block;">
                                                         <button class="jp-video-play-icon" role="button" tabindex="0">play</button>
@@ -235,7 +235,7 @@
                                                     </div>
                                                 </div>
                                             <div class="jp-details" style="display: none;">
-                                        <div class="jp-title" aria-label="title">1. Ellie-Goulding</div>
+                                        <div class="jp-title" aria-label="title">1. Angel_Benard-Utukumbuke</div>
                                      </div>
                                  </div>
                            </div>
@@ -246,30 +246,30 @@
         <li class="jp-playlist-current">
             <div>
                 <a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a>
-                <a href="javascript:;" class="jp-playlist-item jp-playlist-current" tabindex="0">1. Ellie-Goulding <span class="jp-artist">by Pixar</span></a></div></li>
+                <a href="javascript:;" class="jp-playlist-item jp-playlist-current" tabindex="0">1. Angel_Benard-Utukumbuke <span class="jp-artist">by Pixar</span></a></div></li>
         <li>
             <div>
                 <a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a>
-                <a href="javascript:;" class="jp-playlist-item" tabindex="0">2. Mark-Ronson-Uptown <span class="jp-artist">by Pixar</span></a></div></li>
+                <a href="javascript:;" class="jp-playlist-item" tabindex="0">2. Natasha_Lisimo-Shukrani  <span class="jp-artist">by Pixar</span></a></div></li>
         <li>
             <div>
                 <a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a>
-                <a href="javascript:;" class="jp-playlist-item" tabindex="0">3. Ellie-Goulding <span class="jp-artist">by Pixar</span></a></div></li>
+                <a href="javascript:;" class="jp-playlist-item" tabindex="0">3. JOEL_LWAGA-Sitabaki_Nilivyo <span class="jp-artist">by Pixar</span></a></div></li>
         <li>
             <div>
                 <a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a>
-                <a href="javascript:;" class="jp-playlist-item" tabindex="0">4. Maroon-Sugar <span class="jp-artist">by Pixar</span></a></div></li>
+                <a href="javascript:;" class="jp-playlist-item" tabindex="0">4. Ikupa_Mwambenja-uzuri_wako <span class="jp-artist">by Pixar</span></a></div></li>
         <li>
             <div>
                 <a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a>
-                <a href="javascript:;" class="jp-playlist-item" tabindex="0">5. Pharrell-Williams <span class="jp-artist">by Pixar</span></a></div></li>
+                <a href="javascript:;" class="jp-playlist-item" tabindex="0">5. MERCY_MASIKA-NIKUPENDEZE <span class="jp-artist">by Pixar</span></a></div></li>
         <li>
             <div>
                 <a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a>
-                <a href="javascript:;" class="jp-playlist-item" tabindex="0">6. Ellie-Goulding <span class="jp-artist">by Pixar</span></a></div></li>
+                <a href="javascript:;" class="jp-playlist-item" tabindex="0">6. Nsajigwa-Mvua_ya_baraka <span class="jp-artist">by Pixar</span></a></div></li>
         <li>
             <div>
-                <a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">7. Pharrell-Williams <span class="jp-artist">by Pixar</span></a></div></li>
+                <a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">7. Ikupa_Mwambenja-Umwema  <span class="jp-artist">by Pixar</span></a></div></li>
     </ul>
 </div>
                                                 <div class="jp-no-solution" style="display: none;">
